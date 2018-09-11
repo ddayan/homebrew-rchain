@@ -1,9 +1,9 @@
 class Rnode < Formula
   desc "Offical implementation of the RChain platform."
   homepage "developer.rchain.coop"
-  version "0.6.3"
+  version "0.6.4"
   url "https://github.com/rchain/rchain/releases/download/v#{version}/rnode-#{version}.tgz"
-  sha256 "e5b20c3b7d9f5e1ab2eec3b514d9192c8bc29eedfe842c32f8b617159887e7fb"
+  sha256 "e08c2fe2a72c5eb459438b48b27fbb5d3035f1ba32e83bba2bf1a3cf3537625f"
 
   JAVA_VERSION = "1.8"
 
