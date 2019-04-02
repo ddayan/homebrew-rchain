@@ -1,9 +1,10 @@
 class Rnode < Formula
   desc "Offical implementation of the RChain platform."
   homepage "developer.rchain.coop"
-  version "0.8.3"
-  url "https://github.com/rchain/rchain/releases/download/v#{version}/rnode-#{version}.tgz"
-  sha256 "1d245d62c14ca36fc7eb9580a59da0588927e0b49b43991ce80d400cf77732b4"
+  version "0.9.1"
+  githash = "gitbf1b2c6c"
+  url "https://github.com/rchain/rchain/releases/download/v#{version}/rnode-#{version}.#{githash}.tgz"
+  sha256 "8677f95c3c84773ee1f8ad3ed0329b3a6a2d6686cf155ae390e0655f418e11a5"
 
   depends_on :java => "10+"
   depends_on "libsodium"
